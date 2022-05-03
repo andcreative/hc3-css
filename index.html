@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+   
+    <title>and. Creative</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo and. Creative">
+        </div>
+        <ul>
+            <li>
+                <a href="https://andcreative.com.br" target="_blank">Portfolio</a>
+            </li>
+            <li>
+                <a href="https://github.com/andcreative" target="_blank">Github</a>
+            </li>
+            <li>
+                <a href="https://wa.me/+5524992147790" target="_blank">Whatsapp</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>André Carvalho</h1>
+                <h5>Front End Developer</h5>
+            </div>
+            <p class="click">Click!</p>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-angles-down"></i>
+            </div>
+
+            <div id="about">
+                <p>Creative and innovative developer with a focus on problem solving, based in Penedo, Rio de Janeiro, Brazil. During my professional journey, I analyzed data, developed and perfected reports capable of directing my employers, maximizing results and contributing to the team.
+                Passionate about technology, design and programming I decided to go after my dream and become a developer. In 2020 I started my studies and, from there, I developed some projects and today I work very well with HTML and CSS (and a little JavaScript), as well as tools like Wordpress, Photoshop, Illustrator, XD, Figma and Canva.</p>
+            </div>
+
+            <div class="card">
+                <div>
+                    <h5>Web Dev</h5>
+                    <p>I develop responsive websites, landing pages, e-commerces, distance learning courses platforms, institutional websites, personal pages, exclusive or based on templates.</p>
+                </div>
+                <div>
+                    <h5>Design</h5>
+                    <p>I design modern and functional websites and apps. Arts for social media and print. I create, modernize and reinterpret logos. I vectorize images in low resolution.</p>
+                </div>
+                <div>
+                    <h5>Projetos</h5>
+                    <p>I can implement and manage technological and financial projects. I can deploy systems and platforms. I develop and improve reports and dashboards.</p>
+                </div>
+            </div>
+
+            <div class="form">
+                <p>Contact me!</p>
+                <form action="">
+                    <input type="text" placeholder="Enter your best email...">
+                    <button class="btn">Send</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <script> 
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+
+</html>

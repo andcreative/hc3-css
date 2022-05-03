@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    background: url(./img/savana.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding-left: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a {
+    color: #282828;
+    transition: 300ms;
+}
+
+a:hover {
+    color: #be0203;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #be0203
+}
+
+.container .name h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.click {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+#arrow {
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+
+
+#arrow i {
+    color: #be0203;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active {
+    display: block !important;
+}
+
+#about {
+    display: none;
+}
+
+#about p {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.51);
+    padding: 25px;
+    border-radius: 5px;
+    line-height: 25px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card div {
+    background-color: rgba(0, 0, 0, 0.51);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 40px 20px 20px 20px;
+}
+
+.card h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 25px;
+    max-width: 300px;
+}
+
+.form {
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+}
+
+.form button {
+    width: 15%;
+    border: none;
+    padding: 5px 10px;
+    background: linear-gradient(to right, #fff 50%, #be0203 50% );
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: all 500ms ease-out;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+.form button:hover {
+    background-position: left bottom;
+    color: #be0203;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        background-size: auto;
+    }
+
+
+
+    .form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .logo img {
+        max-width: 80px;
+    }
+
+    header {
+        margin-bottom: 80px;
+    }
+
+    header ul li {
+        padding-left: 10px;
+    }
+
+    header a {
+        font-size: 14px;
+    }
+
+    .container .name h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    
+    .container .name h5 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    #about p {
+        max-width: 90%;
+        text-align: justify;
+    }
+
+    .card {
+        display: block;
+    }
+}
+ 
