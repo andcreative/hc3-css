@@ -3,7 +3,7 @@
 
 ##  Why?
 
-### Project developed to train and increment skills in CSS and Git. I used HTML and CSS for styling and Git for deploy.
+### Project developed to train and increment skills in CSS and Git. I used CSS for styling and animations and Git for deploy.
 
 ##  Skills Used in the Project:
 
