@@ -1,9 +1,9 @@
 #  Project: Presentation Webpage
-### *Responsive presentation webpage, created in CSS class - Hiring Coders #3.*
+### *Responsive pessoal presentation webpage, created in CSS class - Hiring Coders #3.*
 
 ##  Why?
 
-### Project developed to train and develop skills in CSS and Git. I used HTML and CSS for styling and Git for deploy.
+### Project developed to train and increment skills in CSS and Git. I used HTML and CSS for styling and Git for deploy.
 
 ##  Skills Used in the Project:
 
